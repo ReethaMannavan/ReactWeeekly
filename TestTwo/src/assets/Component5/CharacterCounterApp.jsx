@@ -24,7 +24,7 @@ const CharacterCounterApp = () => {
             <div className="app-container">
                 <div className="counter-box">
                     <h1 className="title">Character Counter</h1>
-                    <textarea className="text-input" rows="6" placeholder="starttyping...." value={text} onChange={handleChange} />
+                    <textarea className="text-input" rows="6" placeholder="Start Typing...." value={text} onChange={handleChange} />
 
                     <div className="info-box">
                         <div><strong>Words:</strong>{wordCount} </div>

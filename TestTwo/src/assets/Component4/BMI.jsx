@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import img3 from '../images/weight.PNG';
+import img4 from '../images/height.jpg';
 
 
 const BmiCalculator = () => {
@@ -60,7 +62,7 @@ const BmiCalculator = () => {
                             placeholder={weightUnit === 'kg' ? 'kg' : 'lb'}
                         />
                         <img
-                            src='./src/assets/images/weight.PNG'
+                            src={img3}
                             alt="Weight measurement"
                             className="input-image1"
                         />
@@ -110,7 +112,7 @@ const BmiCalculator = () => {
 
                     )}
                     <img
-                        src='./src/assets/images/height.jpg'
+                         src={img4}
                         alt="Weight measurement"
                         className="input-image2"
                     />
