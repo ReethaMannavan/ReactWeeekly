@@ -1,0 +1,87 @@
+.github-container {
+  max-width: 400px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #40cf7c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ddd;
+}
+
+.github-form {
+  margin-bottom: 20px;
+}
+
+.github-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-bottom: 5%;
+}
+
+.github-input:focus {
+  border-color: #da355e;
+}
+
+.github-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #e061ab;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: #34796a;
+}
+
+.loading-text {
+  font-style: italic;
+  color: #666;
+}
+
+.error-text {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.bio {
+  font-style: italic;
+  color: #555;
+  margin: 10px 0;
+}
+
+.profile-link {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
