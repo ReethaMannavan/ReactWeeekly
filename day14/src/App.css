@@ -5,4 +5,20 @@ body{
 .output h1{
     text-align: center;
 }
+button{
+    background-color: rgb(255, 255, 63);
+    width:80px;
+    height:30px;
+    margin-left: 3%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+}
+input{
+    margin-right: 3%;
+}
+.radiobtn{
+    margin-right: 1%;
+}
+
 

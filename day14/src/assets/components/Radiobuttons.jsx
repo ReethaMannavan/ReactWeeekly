@@ -7,10 +7,10 @@ const RadioButton =()=>{
         <>
         <form>
             <label>
-                <input type="radio" name="gender" value="Male" onChange={(e)=>setGender(e.target.value)}/>Male
+                <input type="radio" className="radiobtn" name="gender" value="Male" onChange={(e)=>setGender(e.target.value)}/>Male
             </label>
             <label>
-                <input type="radio" name="gender" value="Female" onChange={(e)=>setGender(e.target.value)}/>Female
+                <input type="radio" className="radiobtn" name="gender" value="Female" onChange={(e)=>setGender(e.target.value)}/>Female
             </label>
             <p>Selected Gender: {gender}</p>
         </form>
