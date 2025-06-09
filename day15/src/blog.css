@@ -1,0 +1,110 @@
+
+.togglebtn{
+  border: none;
+  border-radius: 5px;
+  background-color: #bbb;
+  font-size: 25px;
+  margin-left: 30%;
+}
+.blogh1{
+  text-align: center;
+}
+.light {
+  background-color: #fff;
+  color: #222;
+}
+
+.dark {
+  background-color: #222;
+  color: #ddd;
+}
+
+.blog-container {
+  margin: 0% 25%;
+ background: var(--container-bg, #fff);
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.blog-form {
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.blog-form input, 
+.blog-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1.8px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+  color: #222;
+}
+
+.blog-form button {
+  align-self: flex-start;
+  padding: 0.6rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+
+.post {
+  background: var(--post-bg, #fafafa);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.post:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+}
+
+.post h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--post-title-color, #007bff);
+}
+
+.post p {
+  margin: 0.3rem 0;
+  line-height: 1.5;
+  color: var(--post-text-color, #444);
+  font-size: 1rem;
+}
+
+.post b {
+  color: var(--post-label-color, #333);
+}
+
+.dark .blog-container {
+  --container-bg: #1e1e1e;
+  --post-bg: #2b2b2b;
+  --post-title-color: #66aaff;
+  --post-text-color: #ccc;
+  --post-label-color: #bbb;
+}
