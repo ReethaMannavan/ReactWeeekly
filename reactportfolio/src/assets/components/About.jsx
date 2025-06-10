@@ -1,8 +1,5 @@
-import React from 'react';
-import {NavLink,Link } from 'react-router-dom';
-import profile from '../images/profile2.JPEG'
 
-
+import profile from '../profile2.JPEG';
 const About = () => {
   return (
  <>
