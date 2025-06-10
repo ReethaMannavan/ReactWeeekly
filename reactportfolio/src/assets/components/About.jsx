@@ -1,12 +1,12 @@
 
-import profile from '../profile2.JPEG';
+
 const About = () => {
   return (
  <>
   <section id="about">
         <div className="container about-section">
           <div className="row align-items-center">
-            <div className="col-md-6">
+            <div className="col-md-8">
               <h1 className="about-title">Hi, I'm Reetha</h1>
               <h2 className="developer">A Python Full Stack Developer</h2>
               <p className="about-description">
@@ -27,9 +27,6 @@ const About = () => {
               </div>
             </div>
 
-            <div className="col-md-6 text-center">
-              <img src={profile} alt="My Photo" className="about-img" />
-            </div>
           </div>
         </div>
       </section>
